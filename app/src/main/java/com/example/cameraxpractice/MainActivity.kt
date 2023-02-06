@@ -41,6 +41,8 @@ class MainActivity : AppCompatActivity() {
         fun onRequestPermissionsResult(
             requestCode: Int, permissions: Array<String>, grantResults:
             IntArray
+
+
         ) {
             if (requestCode == REQUEST_CODE_PERMISSIONS) {
                 if (allPermissionsGranted()) {
